@@ -1,5 +1,5 @@
 const express = require('express')
-const uuid = require('uuid')
+import { v4 } from 'uiid'
 
 const port = 3000
 const app = express()
